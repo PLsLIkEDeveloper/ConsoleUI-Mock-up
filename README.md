@@ -6,6 +6,6 @@ How to have a good experience with the website
 
 1.Fullscreen mode
 
-2. A controller
+2.A controller
 
 Enjoy!!
