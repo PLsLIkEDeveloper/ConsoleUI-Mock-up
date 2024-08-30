@@ -1,7 +1,6 @@
 body {
     margin: 0px;
-
-    background-image:image-set('background.png');
+    background-color: rgb(102, 102, 102);
 }
 header {background-color: grey;}
 footer {
@@ -44,10 +43,10 @@ a {
 }
 
 #box1 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(49, 49, 49, 1);
 }
 #box2 {
-    background-color: black;
+    background-color: rgba(49, 49, 49, 1);
 }
 
 .iframe {
