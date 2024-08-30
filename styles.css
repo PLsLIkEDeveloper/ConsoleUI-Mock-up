@@ -1,8 +1,17 @@
 body {
     margin: 0px;
-    background-color: rgb(102, 102, 102);
+    background-image: linear-gradient(rgb(189, 189, 189), rgb(0, 0, 0));
 }
 header {background-color: grey;}
+header a {
+    background-color: rgb(31, 31, 31);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+header a:hover {
+    background-color: rgb(65, 65, 65);
+}
 footer {
     background-color: grey;
     position: relative;
@@ -19,8 +28,6 @@ p {
     color: white;
     font-size: 15px;
     font-family: 'Lucidia Console', monospace;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 #Header {
     color: white;
@@ -36,8 +43,7 @@ a {
 .box {
     background-color: rgb(49, 49, 49);
     border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 8px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
